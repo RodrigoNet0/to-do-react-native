@@ -114,8 +114,8 @@ export default function TodoListScreen({ username, onLogout }) {
   };
 
   const logout = async () => {
-    await AsyncStorage.removeItem('@user'); // Limpa o usuário armazenado
-    onLogout(); // Chama a função passada por props para atualizar o estado no App.js
+    await AsyncStorage.removeItem('@user'); 
+    onLogout(); 
   };
 
   return (

@@ -23,6 +23,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d7ecc1bb-3f65-4ff4-819b-c5f9d8faecc0"
+      }
+    },
+    "owner": "rodrigonetodev",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d7ecc1bb-3f65-4ff4-819b-c5f9d8faecc0"
     }
   }
 }

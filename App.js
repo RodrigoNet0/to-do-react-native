@@ -8,11 +8,11 @@ import TodoListScreen from './TodoListScreen';
 export default function App() {
   const [username, setUsername] = useState(null);
 
-  // Detecta o tema do sistema
+  
   const isDarkMode = Appearance.getColorScheme() === 'dark';
   const theme = isDarkMode ? MD3DarkTheme : MD3LightTheme;
 
-  // Carrega usuário salvo
+
   useEffect(() => {
     const loadUser = async () => {
       const storedUser = await AsyncStorage.getItem('@user');
@@ -24,7 +24,7 @@ export default function App() {
   }, []);
 
   const handleLogout = () => {
-    setUsername(null); // Remove o usuário
+    setUsername(null); 
   };
 
   return (
